@@ -1,0 +1,12 @@
+http:    
+    port: 8080
+    server_crt: "server.crt"
+    server_key: "server.key"
+    csrf_key: "PUT 32 BYTES OF KEY HERE"
+    csrf_secure: false
+recaptcha:
+    verify_url: "https://www.google.com/recaptcha/api/siteverify"
+    # client_key: "6LctQT4dAAAAAKbfdu8Vf2tTDWv6-SNTiW9QA3ck"
+    # server_key: "6LctQT4dAAAAAO-m0E9TPpiwzaHr-uEWWfelmX_W"
+    client_key: "6LfoTT4dAAAAABi05-qxE9DaGFDdh4Tt1L0GgWxj"
+    server_key: "6LfoTT4dAAAAAPlvxmOCkAC5BfhIo_KLdR9GDOXe"
